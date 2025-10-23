@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Aku 🌷</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="porto.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light pastel-navbar shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">🌸 ANNYEONG</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="tentang.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="explore.html">Explore</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✨ Bagian Pengalaman -->
+  <section class="container py-5">
+    <h2 class="text-center pastel-text mb-4">🌄 Pengalaman Seruku</h2>
+    <div class="row g-4">
+      <div class="col-md-4" *ngFor="let img of ['gunung.jpg','futsal.jpg','terjun.jpg']">
+        <div class="card pastel-card p-3 shadow-sm">
+          <img src="gunung.jpg" class="card-img-top rounded" alt="Pengalaman">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mendaki</h5>
+            <p class="card-text">Pengalaman berkesan yang membuatku semakin cinta alam, Angin, kabut, dan sunrise di puncak itu masih terasa sampai sekarang. Aku belajar menikmati perjalanan, bukan cuma puncaknya.🌿</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" *ngFor="let img of ['gunung.jpg','futsal.jpg','terjun.jpg']">
+        <div class="card pastel-card p-3 shadow-sm">
+          <img src="futsal.jpg" class="card-img-top rounded" alt="Pengalaman">
+          <div class="card-body text-center">
+            <h5 class="card-title">Futsal</h5>
+            <p class="card-text">Saat bermain futsal, aku merasa bebas-berlari, tertawa, dan berjuang bareng teman satu tim. Dari lapangan ini aku belajar arti sportivitas dan semangat pantang menyerah</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" *ngFor="let img of ['gunung.jpg','futsal.jpg','terjun.jpg']">
+        <div class="card pastel-card p-3 shadow-sm">
+          <img src="terjun.jpg" class="card-img-top rounded" alt="Pengalaman">
+          <div class="card-body text-center">
+            <h5 class="card-title">Menjelajah</h5>
+            <p class="card-text">Saat berada di dekat air terjun, aku selalu merasa tenang.Gemericik air dan udara sejuknya seperti menyapu semua pikiran lelah. Keindahan alam bisa memberi ketenangan tanpa banyak kata.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🍰 Bagian Makanan Favorit -->
+  <section class="container py-5">
+    <h2 class="text-center pastel-text mb-4">🍰 Makanan Favoritku</h2>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="card pastel-card p-3 shadow-sm"><img src="soto.webp" class="card-img-top rounded" alt="Soto"><div class="card-body text-center"><h5 class="card-title">Soto</h5><p class="card-text">Aku suka bengat sama soto dikarenakan sota adalah makanan dari aderahku</p></div></div></div>
+      <div class="col-md-4"><div class="card pastel-card p-3 shadow-sm"><img src="donat.jpg" class="card-img-top rounded" alt="Donat"><div class="card-body text-center"><h5 class="card-title">Donat</h5><p class="card-text">Aku suka donat karena bisa membuat moodku naik 🍩</p></div></div></div>
+      <div class="col-md-4"><div class="card pastel-card p-3 shadow-sm"><img src="es.jpg" class="card-img-top rounded" alt="Es"><div class="card-body text-center"><h5 class="card-title">Es Cream</h5><p class="card-text">Aku suka es cream dikarenakan teksturnya yang unik, dan banyak varian</p></div></div></div>
+    </div>
+  </section>
+
+  <!-- 🎨 Hobi -->
+  <section class="container py-5">
+    <h2 class="text-center pastel-text mb-4">🎨 Hobiku</h2>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="card pastel-card p-3 shadow-sm"><img src="novel.jpg" class="card-img-top rounded" alt="Membaca"><div class="card-body text-center"><h5 class="card-title">Membaca</h5><p class="card-text">Membaca membuatku mengantuk, jadi aku suka baca novel kaalau suah tidur📚</p></div></div></div>
+      <div class="col-md-4"><div class="card pastel-card p-3 shadow-sm"><img src="baking.jpg" class="card-img-top rounded" alt="Baking"><div class="card-body text-center"><h5 class="card-title">Baking</h5><p class="card-text">Aku suka bereksperimen, jadi aku meluapkannya dimasak meskipun nggak suka kalau udah jadi 🍪</p></div></div></div>
+      <div class="col-md-4"><div class="card pastel-card p-3 shadow-sm"><img src="nonton.jpg" class="card-img-top rounded" alt="Nonton"><div class="card-body text-center"><h5 class="card-title">Nonton</h5><p class="card-texxt">Aku suka menonton film juga, kalau aku bosan membaca terkadang aku nonton netflix</p></div></div></div>
+    </div>
+  </section>
+
+  <!-- 🎵 Musik Favorit -->
+  <section class="container py-5">
+    <h2 class="text-center pastel-text mb-4">🎵 Musik Favoritku</h2>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="card pastel-card p-3 shadow-sm"><img src="o tuan.jpg" class="card-img-top rounded" alt="Musik 1"><div class="card-body text-center"><h5 class="card-title">O Tuan</h5><p class="card-text">Lagu yang mengingatkan untuk tidak sombong dan menggambarkan kedamaian 🎧</p></div></div></div>
+      <div class="col-md-4"><div class="card pastel-card p-3 shadow-sm"><img src="sailor.jpg" class="card-img-top rounded" alt="Musik 2"><div class="card-body text-center"><h5 class="card-title">Sailor Song</h5><p class="card-text">Meskipun ada beberapa lirik yang sedikit menyimpang, tapi suka aja mendengarkannya 🌊</p></div></div></div>
+      <div class="col-md-4"><div class="card pastel-card p-3 shadow-sm"><img src="bandanei.jpg" class="card-img-top rounded" alt="Musik 3"><div class="card-body text-center"><h5 class="card-title">Bandaneira</h5><p class="card-text">Lagunya sangat slow, jadi enak banget didengar tenang. Bisa menrilekskan pikiran 🎶</p></div></div></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-3 pastel-footer">
+    <small>© 2025 Faizah.</small>
+  </footer>
+</body>
+</html>
